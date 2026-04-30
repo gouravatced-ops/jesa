@@ -4,10 +4,11 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
+use App\Traits\EncryptedRouteKey;
 
 class PostType extends Model
 {
-    use SoftDeletes;
+    use SoftDeletes, EncryptedRouteKey;
 
     protected $fillable = [
         'level',

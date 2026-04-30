@@ -145,8 +145,8 @@ class EngineerController extends Controller
         DB::transaction(function () use ($validated) {
             $user = User::create([
                 'name' => $validated['employee_name'],
-                'email' => $validated['login_email'],
-                'password' => Hash::make($validated['login_password']),
+                'email' => $validated['email'],
+                'password' => Hash::make($validated['password']),
                 'role' => 'user',
             ]);
 
@@ -187,12 +187,12 @@ class EngineerController extends Controller
         DB::transaction(function () use ($engineer, $validated) {
             $userPayload = [
                 'name' => $validated['employee_name'],
-                'email' => $validated['login_email'],
+                'email' => $validated['email'],
                 'role' => 'user',
             ];
 
-            if (! empty($validated['login_password'])) {
-                $userPayload['password'] = Hash::make($validated['login_password']);
+            if (! empty($validated['password'])) {
+                $userPayload['password'] = Hash::make($validated['password']);
             }
 
             $engineer->user->update($userPayload);

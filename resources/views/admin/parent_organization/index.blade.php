@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-@section('title', 'Sub Organization List | JESA')
+@section('title', 'Parent Organization List | JESA')
 
 @section('content')
 <div class="card">
@@ -13,30 +13,26 @@
 
     <div class="card-head">
         <div>
-            <div class="card-title">Sub Organization List</div>
-            <div class="card-subtitle">Manage sub organizations and their parent organization links.</div>
+            <div class="card-title">Parent Organization List</div>
+            <div class="card-subtitle">Manage parent organizations for the administrative structure.</div>
         </div>
         <div class="card-actions">
-            <form method="GET" action="{{ $indexRoute }}" class="search-box" onsubmit="return false;">
+            <form method="GET" action="{{ route('admin.parent-organizations.index') }}" class="search-box" onsubmit="return false;">
                 <i class="fa-solid fa-magnifying-glass"></i>
-                <input type="text" id="organizationSearchInput" name="search" value="{{ $search }}" placeholder="Search organizations..." autocomplete="off">
+                <input type="text" id="organizationSearchInput" name="search" value="{{ $search }}" placeholder="Search parent organizations..." autocomplete="off">
             </form>
-            <a class="btn-pink" href="{{ route('admin.organizations.create') }}">
-                <i class="fa-solid fa-plus"></i> Add Sub Organization
+            <a class="btn-pink" href="{{ route('admin.parent-organizations.create') }}">
+                <i class="fa-solid fa-plus"></i> Add Parent Organization
             </a>
         </div>
     </div>
-    @php
-        #return getDebugIndex($organizations);
-    @endphp
+
     <div class="table-responsive">
         <table class="ep-table">
             <thead>
                 <tr>
                     <th>#</th>
-                    <th>Sub Organization</th>
                     <th>Parent Organization</th>
-                    <th>District Posting</th>
                     <th>State</th>
                     <th>District</th>
                     <th>PIN Code</th>
@@ -45,28 +41,21 @@
                 </tr>
             </thead>
             <tbody id="organizationTableBody">
-                @forelse($organizations as $organization)
+                @forelse($parentOrganizations as $organization)
                     <tr>
-                        <td>{{ $organizations->firstItem() + $loop->index }}</td>
+                        <td>{{ $parentOrganizations->firstItem() + $loop->index }}</td>
                         <td>
                             <div class="table-user">
-                                <div class="table-avatar a3">{{ strtoupper(substr($organization->name, 0, 2)) }}</div>
+                                <div class="table-avatar a3">{{ $organization->display_code ?? strtoupper(substr($organization->name, 0, 2)) }}</div>
                                 <div>
                                     <div class="table-name">{{ $organization->name }}</div>
                                     <div class="table-email">{{ $organization->locality ?: ($organization->post_office ?: 'No locality added') }}</div>
                                 </div>
                             </div>
                         </td>
-                        <td>{{ $organization->parentOrganization->display_code ?? $organization->parentOrganization->name ?: '-' }}</td>
-                        <td>
-                            <span class="badge-status {{ $organization->district_wise_posting ? 'active' : 'inactive' }}">
-                                <i class="fa-solid fa-circle"></i>
-                                {{ $organization->district_wise_posting ? 'Yes' : 'No' }}
-                            </span>
-                        </td>
                         <td>{{ $organization->state ?: 'Jharkhand' }}</td>
                         <td>{{ getdistrictNameById($organization->district) ?: 'N/A' }}</td>
-                        <td>{{ $organization->pin_code ?: '-' }}</td>
+                        <td>{{ $organization->pin_code ?: 'N/A' }}</td>
                         <td>
                             <span class="badge-status {{ $organization->status ? 'active' : 'inactive' }}">
                                 <i class="fa-solid fa-circle"></i>
@@ -75,10 +64,10 @@
                         </td>
                         <td>
                             <div class="action-btns">
-                                <a class="action-btn edit" href="{{ route('admin.organizations.edit', $organization) }}" title="Edit">
+                                <a class="action-btn edit" href="{{ route('admin.parent-organizations.edit', $organization) }}" title="Edit">
                                     <i class="fa-solid fa-pen"></i>
                                 </a>
-                                <form action="{{ route('admin.organizations.destroy', $organization) }}" method="POST" style="display:inline;">
+                                <form action="{{ route('admin.parent-organizations.destroy', $organization) }}" method="POST" style="display:inline;">
                                     @csrf
                                     @method('DELETE')
                                     <button class="action-btn del" type="submit" title="Delete">
@@ -90,8 +79,8 @@
                     </tr>
                 @empty
                     <tr>
-                        <td colspan="8" style="text-align:center;padding:32px 20px;color:var(--text-light);">
-                            Organization list not found.
+                        <td colspan="7" style="text-align:center;padding:32px 20px;color:var(--text-light);">
+                            No parent organizations found.
                         </td>
                     </tr>
                 @endforelse
@@ -99,24 +88,24 @@
         </table>
     </div>
 
-    @if($organizations->total() > 0)
+    @if($parentOrganizations->total() > 0)
         <div class="table-pagination" id="organizationPagination">
             <span>
-                Showing <strong>{{ $organizations->firstItem() }}</strong> to <strong>{{ $organizations->lastItem() }}</strong> of <strong>{{ $organizations->total() }}</strong> organizations
+                Showing <strong>{{ $parentOrganizations->firstItem() }}</strong> to <strong>{{ $parentOrganizations->lastItem() }}</strong> of <strong>{{ $parentOrganizations->total() }}</strong> parent organizations
             </span>
             <div class="pagination-btns">
-                @if($organizations->onFirstPage())
+                @if($parentOrganizations->onFirstPage())
                     <span class="pag-btn" style="pointer-events:none;opacity:.5;"><i class="fa-solid fa-chevron-left"></i></span>
                 @else
-                    <a class="pag-btn" href="{{ $organizations->previousPageUrl() }}"><i class="fa-solid fa-chevron-left"></i></a>
+                    <a class="pag-btn" href="{{ $parentOrganizations->previousPageUrl() }}"><i class="fa-solid fa-chevron-left"></i></a>
                 @endif
 
-                @foreach($organizations->getUrlRange(1, $organizations->lastPage()) as $page => $url)
-                    <a class="pag-btn {{ $page === $organizations->currentPage() ? 'active' : '' }}" href="{{ $url }}">{{ $page }}</a>
+                @foreach($parentOrganizations->getUrlRange(1, $parentOrganizations->lastPage()) as $page => $url)
+                    <a class="pag-btn {{ $page === $parentOrganizations->currentPage() ? 'active' : '' }}" href="{{ $url }}">{{ $page }}</a>
                 @endforeach
 
-                @if($organizations->hasMorePages())
-                    <a class="pag-btn" href="{{ $organizations->nextPageUrl() }}"><i class="fa-solid fa-chevron-right"></i></a>
+                @if($parentOrganizations->hasMorePages())
+                    <a class="pag-btn" href="{{ $parentOrganizations->nextPageUrl() }}"><i class="fa-solid fa-chevron-right"></i></a>
                 @else
                     <span class="pag-btn" style="pointer-events:none;opacity:.5;"><i class="fa-solid fa-chevron-right"></i></span>
                 @endif
@@ -130,8 +119,6 @@
         const searchInput = document.getElementById('organizationSearchInput');
         const tableBody = document.getElementById('organizationTableBody');
         const pagination = document.getElementById('organizationPagination');
-        const listRoute = "{{ $indexRoute }}";
-        const searchRoute = "{{ $searchRoute }}";
         let debounceTimer;
 
         function escapeHtml(value) {
@@ -147,8 +134,8 @@
             if (!rows.length) {
                 tableBody.innerHTML = `
                     <tr>
-                        <td colspan="9" style="text-align:center;padding:32px 20px;color:var(--text-light);">
-                            Organization not found for this search.
+                        <td colspan="7" style="text-align:center;padding:32px 20px;color:var(--text-light);">
+                            Parent organization not found for this search.
                         </td>
                     </tr>
                 `;
@@ -166,13 +153,6 @@
                                 <div class="table-email">${escapeHtml(row.locality)}</div>
                             </div>
                         </div>
-                    </td>
-                    <td>${escapeHtml(row.parent_name || '-')}</td>
-                    <td>
-                        <span class="badge-status ${row.district_wise_posting === 'Yes' ? 'active' : 'inactive'}">
-                            <i class="fa-solid fa-circle"></i>
-                            ${escapeHtml(row.district_wise_posting)}
-                        </span>
                     </td>
                     <td>${escapeHtml(row.state)}</td>
                     <td>${escapeHtml(row.district)}</td>
@@ -205,13 +185,11 @@
             const keyword = searchInput.value.trim();
 
             if (keyword === '') {
-                showSecondaryLoader('Loading organizations...');
-                window.location.href = listRoute;
+                window.location.href = '{{ route('admin.parent-organizations.index') }}';
                 return;
             }
 
-            showSecondaryLoader('Searching organizations...');
-            fetch(`${searchRoute}?search=${encodeURIComponent(keyword)}`, {
+            fetch(`{{ route('admin.parent-organizations.search') }}?search=${encodeURIComponent(keyword)}`, {
                 headers: {
                     'X-Requested-With': 'XMLHttpRequest',
                     'Accept': 'application/json',
@@ -226,9 +204,6 @@
                 })
                 .catch(() => {
                     renderRows([]);
-                })
-                .finally(() => {
-                    hideSecondaryLoader();
                 });
         }
 

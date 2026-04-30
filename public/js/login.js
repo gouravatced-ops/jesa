@@ -17,7 +17,7 @@ setInterval(nextSlide, 4000);
 showSlide(index);
 
 function generateCaptchaValue(length = 6) {
-    const characters = 'ABCDEFGHIJKLMNOPQRSTUV0987654321';
+    const characters = 'ABCDEFGHIJKLMNOPQRSTUV987654321';
     let value = '';
     for (let i = 0; i < length; i++) {
         value += characters.charAt(Math.floor(Math.random() * characters.length));

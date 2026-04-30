@@ -14,6 +14,8 @@ return Application::configure(basePath: dirname(__DIR__))
         $middleware->alias([
             'role' => \App\Http\Middleware\RoleMiddleware::class,
         ]);
+        
+        $middleware->append(\App\Http\Middleware\DecryptRouteParameters::class);
     })
     ->withExceptions(function (Exceptions $exceptions): void {
         //

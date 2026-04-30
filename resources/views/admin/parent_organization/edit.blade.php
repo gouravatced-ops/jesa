@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-@section('title', 'Edit Engineer | JESA')
+@section('title', 'Edit Parent Organization | JESA')
 
 @section('content')
 <div class="form-container">
@@ -19,17 +19,18 @@
 
             <div class="form-header">
                 <div>
-                    <h4>Edit Engineer</h4>
-                    <p>Update login email and the linked engineer employee details from one form.</p>
+                    <h4>Edit Parent Organization</h4>
+                    <p>Update parent organization information and status.</p>
                 </div>
-                <a href="{{ route('admin.engineers.index') }}" class="btn-back">
+                <a href="{{ route('admin.parent-organizations.index') }}" class="btn-back">
                     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
                     Back
                 </a>
             </div>
-            <form action="{{ route('admin.engineers.update', $engineer->encrypted_route_key) }}" method="POST" id="engineerForm">
+
+            <form action="{{ route('admin.parent-organizations.update', $parentOrganization) }}" method="POST" id="parentOrganizationForm">
                 @method('PUT')
-                @include('admin.engineer._form', ['submitLabel' => 'Update Engineer'])
+                @include('admin.parent_organization._form', ['submitLabel' => 'Update Parent Organization'])
             </form>
         </div>
     </div>

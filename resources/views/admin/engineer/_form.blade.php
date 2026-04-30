@@ -14,7 +14,7 @@
         <div class="form-grid" autocomplete="off">
             <div class="form-group">
                 <label>Email ID <span class="required">*</span></label>
-                <input type="email" name="login_email" class="form-control email-validation" 
+                <input type="email" name="email" class="form-control email-validation" 
                  value="{{ old('email', $user?->email) }}" placeholder="Enter login email" required>
             </div>
 
@@ -25,7 +25,7 @@
                         <span class="required">*</span>
                     @endunless
                 </label>
-                <input type="password" name="login_password" class="form-control" placeholder="{{ $engineer->exists ? 'Leave blank to keep current password' : 'Enter password' }}" {{ $engineer->exists ? '' : 'required' }}>
+                <input type="password" name="password" class="form-control" placeholder="{{ $engineer->exists ? 'Leave blank to keep current password' : 'Enter password' }}" {{ $engineer->exists ? '' : 'required' }}>
             </div>
         </div>
     </div>

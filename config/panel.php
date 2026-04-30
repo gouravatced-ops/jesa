@@ -20,7 +20,7 @@ return [
     'patrnterLogo' => 'img/computered-logo.png',
     'calendarType' => 'financialYear', // calendarYear,
     'password_expiry_days' => 30,
-    'theme' => 'royal-purple',
+    'theme' => 'forest-green',
     'themes' => [
         'gov-indigo' => [
             'primary-color' => '#4f46e5',

@@ -8,6 +8,7 @@ use App\Http\Controllers\DivisionController;
 use App\Http\Controllers\EngineerController;
 use App\Http\Controllers\GuestHouseRequisitionController;
 use App\Http\Controllers\OrganizationController;
+use App\Http\Controllers\ParentOrganizationController;
 use App\Http\Controllers\PostTypeController;
 use App\Http\Controllers\SubDivisionController;
 use Illuminate\Support\Facades\Route;
@@ -46,6 +47,14 @@ Route::middleware('auth')
         Route::get('/organizations/{organization}/edit', [OrganizationController::class, 'edit'])->name('organizations.edit');
         Route::put('/organizations/{organization}', [OrganizationController::class, 'update'])->name('organizations.update');
         Route::delete('/organizations/{organization}', [OrganizationController::class, 'destroy'])->name('organizations.destroy');
+
+        Route::get('/parent-organizations', [ParentOrganizationController::class, 'index'])->name('parent-organizations.index');
+        Route::get('/parent-organizations/search', [ParentOrganizationController::class, 'search'])->name('parent-organizations.search');
+        Route::get('/parent-organizations/create', [ParentOrganizationController::class, 'create'])->name('parent-organizations.create');
+        Route::post('/parent-organizations', [ParentOrganizationController::class, 'store'])->name('parent-organizations.store');
+        Route::get('/parent-organizations/{parentOrganization}/edit', [ParentOrganizationController::class, 'edit'])->name('parent-organizations.edit');
+        Route::put('/parent-organizations/{parentOrganization}', [ParentOrganizationController::class, 'update'])->name('parent-organizations.update');
+        Route::delete('/parent-organizations/{parentOrganization}', [ParentOrganizationController::class, 'destroy'])->name('parent-organizations.destroy');
 
         Route::get('/post-types', [PostTypeController::class, 'index'])->name('post-types.index');
         Route::get('/post-types/search', [PostTypeController::class, 'search'])->name('post-types.search');

@@ -12,7 +12,7 @@
     <title>Home Page | Official Website | Jharkhand Engineering Service Association (JESA) | Ranchi | Jharkhand </title>
     <meta name="description" content="Official website of Jharkhand Engineering Service Association (JESA). Get latest notices, circulars, events and updates related to engineering services in Jharkhand." />
     <meta name="keywords" content="JESA, Jharkhand Engineering Service Association, Jharkhand Engineers, Ranchi Engineers" />
-    <meta name="https://computered.co.in/jesa/author" content="JESA" />
+    <meta name="https://jesa.computered.co.in/author" content="JESA" />
     <link rel="canonical" href="https://www.jesajharkhand.com/" />
 
 
@@ -22,10 +22,10 @@
     <meta property="og:url" content="https://www.jesajharkhand.com/">
 
 
-    <link rel="https://computered.co.in/jesa/apple-touch-icon" sizes="180x180" href="https://computered.co.in/jesa/assets/images/favicons/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="https://computered.co.in/jesa/assets/images/favicons/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="https://computered.co.in/jesa/assets/images/favicons/favicon-16x16.png" />
-    <link rel="manifest" href="https://computered.co.in/jesa/assets/images/favicons/site.webmanifest" />
+    <link rel="https://jesa.computered.co.in/apple-touch-icon" sizes="180x180" href="https://jesa.computered.co.in/assets/images/favicons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="https://jesa.computered.co.in/assets/images/favicons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="https://jesa.computered.co.in/assets/images/favicons/favicon-16x16.png" />
+    <link rel="manifest" href="https://jesa.computered.co.in/assets/images/favicons/site.webmanifest" />
 
 
 
@@ -40,30 +40,30 @@
         rel="stylesheet">
 
 
-    <link rel="stylesheet" href="https://computered.co.in/jesa/assets/vendors/bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://computered.co.in/jesa/assets/vendors/animate/animate.min.css" />
-    <link rel="stylesheet" href="https://computered.co.in/jesa/assets/vendors/animate/custom-animate.css" />
+    <link rel="stylesheet" href="https://jesa.computered.co.in/assets/vendors/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://jesa.computered.co.in/assets/vendors/animate/animate.min.css" />
+    <link rel="stylesheet" href="https://jesa.computered.co.in/assets/vendors/animate/custom-animate.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link rel="stylesheet" href="https://computered.co.in/jesa/assets/vendors/jarallax/jarallax.css" />
-    <link rel="stylesheet" href="https://computered.co.in/jesa/assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css" />
-    <link rel="stylesheet" href="https://computered.co.in/jesa/assets/vendors/nouislider/nouislider.min.css" />
-    <link rel="stylesheet" href="https://computered.co.in/jesa/assets/vendors/nouislider/nouislider.pips.css" />
-    <link rel="stylesheet" href="https://computered.co.in/jesa/assets/vendors/odometer/odometer.min.css" />
-    <link rel="stylesheet" href="https://computered.co.in/jesa/assets/vendors/swiper/swiper.min.css" />
-    <link rel="stylesheet" href="https://computered.co.in/jesa/assets/vendors/jesa-icons/style.css">
-    <link rel="stylesheet" href="https://computered.co.in/jesa/assets/vendors/tiny-slider/tiny-slider.min.css" />
-    <link rel="stylesheet" href="https://computered.co.in/jesa/assets/vendors/reey-font/stylesheet.css" />
-    <link rel="stylesheet" href="https://computered.co.in/jesa/assets/vendors/gordita-font/stylesheet.css" />
-    <link rel="stylesheet" href="https://computered.co.in/jesa/assets/vendors/owl-carousel/owl.carousel.min.css" />
-    <link rel="stylesheet" href="https://computered.co.in/jesa/assets/vendors/owl-carousel/owl.theme.default.min.css" />
-    <link rel="stylesheet" href="https://computered.co.in/jesa/assets/vendors/bxslider/jquery.bxslider.css" />
-    <link rel="stylesheet" href="https://computered.co.in/jesa/assets/vendors/bootstrap-select/css/bootstrap-select.min.css" />
-    <link rel="stylesheet" href="https://computered.co.in/jesa/assets/vendors/vegas/vegas.min.css" />
-    <link rel="stylesheet" href="https://computered.co.in/jesa/assets/vendors/jquery-ui/jquery-ui.css" />
-    <link rel="stylesheet" href="https://computered.co.in/jesa/assets/vendors/timepicker/timePicker.css" />
-    <link rel="stylesheet" href="https://computered.co.in/jesa/assets/vendors/nice-select/nice-select.css" />
-    <link rel="stylesheet" href="https://computered.co.in/jesa/assets/css/jesa.css" />
-    <link rel="stylesheet" href="https://computered.co.in/jesa/assets/css/jesa-responsive.css" />
+    <link rel="stylesheet" href="https://jesa.computered.co.in/assets/vendors/jarallax/jarallax.css" />
+    <link rel="stylesheet" href="https://jesa.computered.co.in/assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css" />
+    <link rel="stylesheet" href="https://jesa.computered.co.in/assets/vendors/nouislider/nouislider.min.css" />
+    <link rel="stylesheet" href="https://jesa.computered.co.in/assets/vendors/nouislider/nouislider.pips.css" />
+    <link rel="stylesheet" href="https://jesa.computered.co.in/assets/vendors/odometer/odometer.min.css" />
+    <link rel="stylesheet" href="https://jesa.computered.co.in/assets/vendors/swiper/swiper.min.css" />
+    <link rel="stylesheet" href="https://jesa.computered.co.in/assets/vendors/jesa-icons/style.css">
+    <link rel="stylesheet" href="https://jesa.computered.co.in/assets/vendors/tiny-slider/tiny-slider.min.css" />
+    <link rel="stylesheet" href="https://jesa.computered.co.in/assets/vendors/reey-font/stylesheet.css" />
+    <link rel="stylesheet" href="https://jesa.computered.co.in/assets/vendors/gordita-font/stylesheet.css" />
+    <link rel="stylesheet" href="https://jesa.computered.co.in/assets/vendors/owl-carousel/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://jesa.computered.co.in/assets/vendors/owl-carousel/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="https://jesa.computered.co.in/assets/vendors/bxslider/jquery.bxslider.css" />
+    <link rel="stylesheet" href="https://jesa.computered.co.in/assets/vendors/bootstrap-select/css/bootstrap-select.min.css" />
+    <link rel="stylesheet" href="https://jesa.computered.co.in/assets/vendors/vegas/vegas.min.css" />
+    <link rel="stylesheet" href="https://jesa.computered.co.in/assets/vendors/jquery-ui/jquery-ui.css" />
+    <link rel="stylesheet" href="https://jesa.computered.co.in/assets/vendors/timepicker/timePicker.css" />
+    <link rel="stylesheet" href="https://jesa.computered.co.in/assets/vendors/nice-select/nice-select.css" />
+    <link rel="stylesheet" href="https://jesa.computered.co.in/assets/css/jesa.css" />
+    <link rel="stylesheet" href="https://jesa.computered.co.in/assets/css/jesa-responsive.css" />
 
 
     <style>
@@ -91,7 +91,7 @@
                                 <!-- LOGO IMAGE -->
                                 <div class="jesa-logo-img">
                                     <a href="index.php" title="JESA Home">
-                                        <img src="https://computered.co.in/jesa/assets/images/resources/jesa_logo.png"
+                                        <img src="https://jesa.computered.co.in/assets/images/resources/jesa_logo.png"
                                             alt="JESA Logo"
                                             style="max-height:80px;">
                                     </a>
@@ -207,11 +207,11 @@
 
                                         <!-- ABOUT US -->
                                         <li class="dropdown" role="none">
-                                            <a href="#" role="menuitem" aria-haspopup="true" aria-expanded="false" title="https://computered.co.in/jesa/About Jharkhand Engineering Service Association">
+                                            <a href="#" role="menuitem" aria-haspopup="true" aria-expanded="false" title="https://jesa.computered.co.in/About Jharkhand Engineering Service Association">
                                                 About Us
                                             </a>
-                                            <ul role="menu" aria-label="https://computered.co.in/jesa/About Us Submenu">
-                                                <li role="none"><a href="#" role="menuitem" title="https://computered.co.in/jesa/About JESA">About JESA</a></li>
+                                            <ul role="menu" aria-label="https://jesa.computered.co.in/About Us Submenu">
+                                                <li role="none"><a href="#" role="menuitem" title="https://jesa.computered.co.in/About JESA">About JESA</a></li>
                                                 <li role="none"><a href="#" role="menuitem" title="Genesis and Objectives">Genesis & Objectives</a></li>
                                                 <li role="none"><a href="#" role="menuitem" title="Departments Covered under JESA">Departments Covered</a></li>
                                                 <li role="none"><a href="#" role="menuitem" title="Organisation Structure">Organisation Structure</a></li>
@@ -243,7 +243,7 @@
                                                 <li role="none"><a href="#" role="menuitem" title="Circulars and Notices">Circulars & Notices</a></li>
                                                 <li role="none"><a href="#" role="menuitem" title="Minutes of Meetings">Minutes of Meetings</a></li>
                                                 <li role="none"><a href="#" role="menuitem" title="Jharkhand Government Notifications">Govt. Notifications</a></li>
-                                                <li role="none"><a href="#" role="menuitem" title="https://computered.co.in/jesa/Acts, Rules and Policies">Acts / Policies</a></li>
+                                                <li role="none"><a href="#" role="menuitem" title="https://jesa.computered.co.in/Acts, Rules and Policies">Acts / Policies</a></li>
                                                 <li role="none"><a href="#" role="menuitem" title="Office Orders and Resolutions">Office Orders</a></li>
                                                 <li role="none"><a href="#" role="menuitem" title="Download Forms and Documents">Forms</a></li>
                                             </ul>
@@ -251,10 +251,10 @@
 
                                         <!-- ACTIVITIES -->
                                         <li class="dropdown" role="none">
-                                            <a href="#" role="menuitem" aria-haspopup="true" aria-expanded="false" title="https://computered.co.in/jesa/Activities and Events">
+                                            <a href="#" role="menuitem" aria-haspopup="true" aria-expanded="false" title="https://jesa.computered.co.in/Activities and Events">
                                                 Activities
                                             </a>
-                                            <ul role="menu" aria-label="https://computered.co.in/jesa/Activities Submenu">
+                                            <ul role="menu" aria-label="https://jesa.computered.co.in/Activities Submenu">
                                                 <li role="none"><a href="#" role="menuitem" title="Events and Programs">Events & Programs</a></li>
                                                 <li role="none"><a href="#" role="menuitem" title="Engineers Day Celebrations">Engineers' Day</a></li>
                                                 <li role="none"><a href="#" role="menuitem" title="Workshops and Seminars">Workshops / Seminars</a></li>
@@ -325,7 +325,7 @@
                     "nextEl": "#main-slider__swiper-button-next",
                     "prevEl": "#main-slider__swiper-button-prev"
                 },
-                "https://computered.co.in/jesa/autoplay": {
+                "https://jesa.computered.co.in/autoplay": {
                     "delay": 5000
                 }
             }'>
@@ -334,7 +334,7 @@
 
                     <!-- Slide 1 -->
                     <div class="swiper-slide" role="group" aria-label="Slide 1 of 3">
-                        <img src="https://computered.co.in/jesa/assets/images/backgrounds/main-slider-1-1.jpg"
+                        <img src="https://jesa.computered.co.in/assets/images/backgrounds/main-slider-1-1.jpg"
                             class="main-slider__img"
                             alt="Jharkhand Engineering Services Association activity"
                             title="JESA Activities">
@@ -342,7 +342,7 @@
 
                     <!-- Slide 2 -->
                     <div class="swiper-slide" role="group" aria-label="Slide 2 of 3">
-                        <img src="https://computered.co.in/jesa/assets/images/backgrounds/main-slider-1-2.jpg"
+                        <img src="https://jesa.computered.co.in/assets/images/backgrounds/main-slider-1-2.jpg"
                             class="main-slider__img"
                             alt="Infrastructure and engineering services work"
                             title="Engineering Services Work">
@@ -350,9 +350,9 @@
 
                     <!-- Slide 3 -->
                     <div class="swiper-slide" role="group" aria-label="Slide 3 of 3">
-                        <img src="https://computered.co.in/jesa/assets/images/backgrounds/main-slider-1-3.jpg"
+                        <img src="https://jesa.computered.co.in/assets/images/backgrounds/main-slider-1-3.jpg"
                             class="main-slider__img"
-                            alt="https://computered.co.in/jesa/Administrative and field operations"
+                            alt="https://jesa.computered.co.in/Administrative and field operations"
                             title="JESA Field Operations">
                     </div>
 
@@ -379,8 +379,8 @@
 
             </div>
         </section>
-        <section class="https://computered.co.in/jesa/activities-section centred bg-color-1">
-            <div class="https://computered.co.in/jesa/auto-container">
+        <section class="https://jesa.computered.co.in/activities-section centred bg-color-1">
+            <div class="https://jesa.computered.co.in/auto-container">
                 <div class="inner-container">
                     <div class="row clearfix">
 
@@ -467,7 +467,7 @@
                             <div class="tab-content pt-3">
 
                                 <!-- ANNOUNCEMENTS -->
-                                <div class="tab-pane fade show active" id="https://computered.co.in/jesa/announcements">
+                                <div class="tab-pane fade show active" id="https://jesa.computered.co.in/announcements">
 
 
                                     <div class="update-item border10">
@@ -620,7 +620,7 @@
   <div class="card-body">
 
     <div class="president-img-wrapper">
-      <img src="https://computered.co.in/jesa/assets/images/icon/male.png" alt="President JESA" class="president-img">
+      <img src="https://jesa.computered.co.in/assets/images/icon/male.png" alt="President JESA" class="president-img">
     </div>
        <small class="designation"><strong>Prof. (Dr.) Raj Kumar </strong></small>
 
@@ -660,7 +660,7 @@
                                             <!-- Slide 1 -->
                                             <div class="swiper-slide">
                                                 <div class="event-card">
-                                                    <img src="https://computered.co.in/jesa/assets/images/gallery/2025/58_engg_day/1.jpg" alt="">
+                                                    <img src="https://jesa.computered.co.in/assets/images/gallery/2025/58_engg_day/1.jpg" alt="">
                                                     <div class="event-overlay">
                                                         <h5>58th Engineers' Day 2025</h5>
                                                     </div>
@@ -670,7 +670,7 @@
                                             <!-- Slide 2 -->
                                             <div class="swiper-slide">
                                                 <div class="event-card">
-                                                    <img src="https://computered.co.in/jesa/assets/images/gallery/2025/holi_milan/1.jpg" alt="">
+                                                    <img src="https://jesa.computered.co.in/assets/images/gallery/2025/holi_milan/1.jpg" alt="">
                                                     <div class="event-overlay">
                                                         <h5>Holi Milan Samaroh 2025</h5>
                                                     </div>
@@ -680,7 +680,7 @@
                                             <!-- Slide 3 -->
                                             <div class="swiper-slide">
                                                 <div class="event-card">
-                                                    <img src="https://computered.co.in/jesa/assets/images/gallery/2025/wrld_env_day/1.jpg" alt="">
+                                                    <img src="https://jesa.computered.co.in/assets/images/gallery/2025/wrld_env_day/1.jpg" alt="">
                                                     <div class="event-overlay">
                                                         <h5>World Environment Day 2025</h5>
                                                     </div>
@@ -719,35 +719,35 @@
         </section>
 
         <!--About One Start-->
-        <section class="https://computered.co.in/jesa/about-one">
+        <section class="https://jesa.computered.co.in/about-one">
             <div class="container">
 
                 <div class="row">
                     <div class="col-xl-6">
-                        <div class="https://computered.co.in/jesa/about-one__left">
-                            <div class="https://computered.co.in/jesa/about-one__img-box">
-                                <div class="https://computered.co.in/jesa/about-one__img">
-                                    <img src="https://computered.co.in/jesa/assets/images/resources/about-one-img-1.jpg" alt="">
+                        <div class="https://jesa.computered.co.in/about-one__left">
+                            <div class="https://jesa.computered.co.in/about-one__img-box">
+                                <div class="https://jesa.computered.co.in/about-one__img">
+                                    <img src="https://jesa.computered.co.in/assets/images/resources/about-one-img-1.jpg" alt="">
                                 </div>
-                                <div class="https://computered.co.in/jesa/about-one__img-2">
-                                    <img src="https://computered.co.in/jesa/assets/images/resources/about-one-img-2.jpg" alt="">
-                                    <div class="https://computered.co.in/jesa/about-one__shape-4 float-bob-x"></div>
+                                <div class="https://jesa.computered.co.in/about-one__img-2">
+                                    <img src="https://jesa.computered.co.in/assets/images/resources/about-one-img-2.jpg" alt="">
+                                    <div class="https://jesa.computered.co.in/about-one__shape-4 float-bob-x"></div>
                                 </div>
-                                <div class="https://computered.co.in/jesa/about-one__shape-1 float-bob-x"></div>
-                                <div class="https://computered.co.in/jesa/about-one__shape-2 float-bob-y"></div>
-                                <div class="https://computered.co.in/jesa/about-one__shape-3 zoominout"></div>
+                                <div class="https://jesa.computered.co.in/about-one__shape-1 float-bob-x"></div>
+                                <div class="https://jesa.computered.co.in/about-one__shape-2 float-bob-y"></div>
+                                <div class="https://jesa.computered.co.in/about-one__shape-3 zoominout"></div>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-6">
-                        <div class="https://computered.co.in/jesa/about-three__right">
+                        <div class="https://jesa.computered.co.in/about-three__right">
 
                             <div class="section-title text-left">
                                 <span class="section-title__tagline">About Us</span>
                                 <h2 class="section-title__title">Jharkhand Engineering Services Association (JESA)</h2>
                             </div>
 
-                            <p align="justify" class="https://computered.co.in/jesa/about-three__text">
+                            <p align="justify" class="https://jesa.computered.co.in/about-three__text">
                                 Jharkhand Engineering Services Association (JESA), established in 2000 and headquartered in Ranchi,
                                 represents Graduate Engineers from key state departments including Road Construction, Water Resources,
                                 Drinking Water & Sanitation, Rural Works, and Building Construction.
@@ -778,7 +778,7 @@
                                     <div class="col-md-4">
                                         <div class="leader-card">
                                             <div class="leader-img">
-                                                <img src="https://computered.co.in/jesa/assets/images/comm/prabhat_kr_singh.jpg" alt="President">
+                                                <img src="https://jesa.computered.co.in/assets/images/comm/prabhat_kr_singh.jpg" alt="President">
                                             </div>
                                             <h6>Er. Prabhat Kumar Singh</h6>
                                             <span>President</span>
@@ -791,7 +791,7 @@
                                     <div class="col-md-4">
                                         <div class="leader-card">
                                             <div class="leader-img">
-                                                <img src="https://computered.co.in/jesa/assets/images/comm/rahul_kumar.jpg" alt="Secretary">
+                                                <img src="https://jesa.computered.co.in/assets/images/comm/rahul_kumar.jpg" alt="Secretary">
                                             </div>
                                             <h6>Er. Rahul Kumar</h6>
                                             <span>Secretary</span>
@@ -804,7 +804,7 @@
                                     <div class="col-md-4">
                                         <div class="leader-card">
                                             <div class="leader-img">
-                                                <img src="https://computered.co.in/jesa/assets/images/comm/anshuman_prakash.jpg" alt="Treasurer">
+                                                <img src="https://jesa.computered.co.in/assets/images/comm/anshuman_prakash.jpg" alt="Treasurer">
                                             </div>
                                             <h6>Er. Anshuman Prakash</h6>
                                             <span>Treasurer</span>
@@ -829,11 +829,11 @@
 
         <!-- ORIGINAL SHAPES (PRESERVED) -->
         <div class="cta-one__shape-1">
-            <img src="https://computered.co.in/jesa/assets/images/shapes/cta-one-shape-1.png" alt="">
+            <img src="https://jesa.computered.co.in/assets/images/shapes/cta-one-shape-1.png" alt="">
         </div>
 
         <div class="cta-one__shape-2">
-            <img src="https://computered.co.in/jesa/assets/images/shapes/cta-one-shape-2.png" alt="">
+            <img src="https://jesa.computered.co.in/assets/images/shapes/cta-one-shape-2.png" alt="">
         </div>
 
         <div class="container">
@@ -914,10 +914,10 @@
 
             </div>
             <div class="cta-three__shape-1 zoominout">
-                <img src="https://computered.co.in/jesa/assets/images/shapes/cta-three-shape-1.png" alt="">
+                <img src="https://jesa.computered.co.in/assets/images/shapes/cta-three-shape-1.png" alt="">
             </div>
             <div class="cta-three__shape-2 img-bounce">
-                <img src="https://computered.co.in/jesa/assets/images/shapes/cta-three-shape-2.png" alt="">
+                <img src="https://jesa.computered.co.in/assets/images/shapes/cta-three-shape-2.png" alt="">
             </div>
         </div>
     </section>
@@ -949,7 +949,7 @@
                     <div class="project-one__single">
                         <div class="project-one__img-box">
                             <div class="project-one__img">
-                                <img src="https://computered.co.in/jesa/assets/images/gallery/2025/58_engg_day/1.jpg" alt="">
+                                <img src="https://jesa.computered.co.in/assets/images/gallery/2025/58_engg_day/1.jpg" alt="">
                             </div>
                             <div class="project-one__content-box">
                                 <div class="project-one__content">
@@ -971,7 +971,7 @@
                     <div class="project-one__single">
                         <div class="project-one__img-box">
                             <div class="project-one__img">
-                                <img src="https://computered.co.in/jesa/assets/images/gallery/2025/holi_milan/1.jpg" alt="">
+                                <img src="https://jesa.computered.co.in/assets/images/gallery/2025/holi_milan/1.jpg" alt="">
                             </div>
                             <div class="project-one__content-box">
                                 <div class="project-one__content">
@@ -993,7 +993,7 @@
                     <div class="project-one__single">
                         <div class="project-one__img-box">
                             <div class="project-one__img">
-                                <img src="https://computered.co.in/jesa/assets/images/gallery/2025/jesa_election_hzb/1.jpg" alt="">
+                                <img src="https://jesa.computered.co.in/assets/images/gallery/2025/jesa_election_hzb/1.jpg" alt="">
                             </div>
                             <div class="project-one__content-box">
                                 <div class="project-one__content">
@@ -1014,7 +1014,7 @@
                     <div class="project-one__single">
                         <div class="project-one__img-box">
                             <div class="project-one__img">
-                                <img src="https://computered.co.in/jesa/assets/images/gallery/2025/plantation_prgm_may_2025/1.jpg" alt="">
+                                <img src="https://jesa.computered.co.in/assets/images/gallery/2025/plantation_prgm_may_2025/1.jpg" alt="">
                             </div>
                             <div class="project-one__content-box">
                                 <div class="project-one__content">
@@ -1205,7 +1205,7 @@
                     <div class="project-one__single">
                         <div class="project-one__img-box">
                             <div class="project-one__img">
-                                <img src="https://computered.co.in/jesa/assets/images/gallery/2025/58_engg_day/1.jpg" alt="">
+                                <img src="https://jesa.computered.co.in/assets/images/gallery/2025/58_engg_day/1.jpg" alt="">
                             </div>
                             <div class="project-one__content-box">
                                 <div class="project-one__content">
@@ -1227,7 +1227,7 @@
                     <div class="project-one__single">
                         <div class="project-one__img-box">
                             <div class="project-one__img">
-                                <img src="https://computered.co.in/jesa/assets/images/gallery/2025/holi_milan/1.jpg" alt="">
+                                <img src="https://jesa.computered.co.in/assets/images/gallery/2025/holi_milan/1.jpg" alt="">
                             </div>
                             <div class="project-one__content-box">
                                 <div class="project-one__content">
@@ -1249,7 +1249,7 @@
                     <div class="project-one__single">
                         <div class="project-one__img-box">
                             <div class="project-one__img">
-                                <img src="https://computered.co.in/jesa/assets/images/gallery/2025/jesa_election_hzb/1.jpg" alt="">
+                                <img src="https://jesa.computered.co.in/assets/images/gallery/2025/jesa_election_hzb/1.jpg" alt="">
                             </div>
                             <div class="project-one__content-box">
                                 <div class="project-one__content">
@@ -1270,7 +1270,7 @@
                     <div class="project-one__single">
                         <div class="project-one__img-box">
                             <div class="project-one__img">
-                                <img src="https://computered.co.in/jesa/assets/images/gallery/2025/plantation_prgm_may_2025/1.jpg" alt="">
+                                <img src="https://jesa.computered.co.in/assets/images/gallery/2025/plantation_prgm_may_2025/1.jpg" alt="">
                             </div>
                             <div class="project-one__content-box">
                                 <div class="project-one__content">
@@ -1293,7 +1293,7 @@
                     <div class="project-one__single">
                         <div class="project-one__img-box">
                             <div class="project-one__img">
-                                <img src="https://computered.co.in/jesa/assets/images/gallery/2025/wshp_sem/3.jpg" alt="">
+                                <img src="https://jesa.computered.co.in/assets/images/gallery/2025/wshp_sem/3.jpg" alt="">
                             </div>
                             <div class="project-one__content-box">
                                 <div class="project-one__content">
@@ -1314,7 +1314,7 @@
                     <div class="project-one__single">
                         <div class="project-one__img-box">
                             <div class="project-one__img">
-                                <img src="https://computered.co.in/jesa/assets/images/gallery/2025/wshp_sem/2.jpg" alt="">
+                                <img src="https://jesa.computered.co.in/assets/images/gallery/2025/wshp_sem/2.jpg" alt="">
                             </div>
                             <div class="project-one__content-box">
                                 <div class="project-one__content">
@@ -1335,7 +1335,7 @@
                     <div class="project-one__single">
                         <div class="project-one__img-box">
                             <div class="project-one__img">
-                                <img src="https://computered.co.in/jesa/assets/images/gallery/2025/wshp_sem/1.jpg" alt="">
+                                <img src="https://jesa.computered.co.in/assets/images/gallery/2025/wshp_sem/1.jpg" alt="">
                             </div>
                             <div class="project-one__content-box">
                                 <div class="project-one__content">
@@ -1356,7 +1356,7 @@
                     <div class="project-one__single">
                         <div class="project-one__img-box">
                             <div class="project-one__img">
-                                <img src="https://computered.co.in/jesa/assets/images/gallery/2025/wrkshop_evolve/1.jpg" alt="">
+                                <img src="https://jesa.computered.co.in/assets/images/gallery/2025/wrkshop_evolve/1.jpg" alt="">
                             </div>
                             <div class="project-one__content-box">
                                 <div class="project-one__content">
@@ -1549,7 +1549,7 @@
             <div class="brand-one__wrap">
                 <div class="brand-one__inner">
                     <div class="brand-one__brand">
-                        <div class="thm-swiper__slider swiper-container" data-swiper-options='{"spaceBetween": 100, "slidesPerView": 5, "https://computered.co.in/jesa/autoplay": { "delay": 5000 }, "breakpoints": {
+                        <div class="thm-swiper__slider swiper-container" data-swiper-options='{"spaceBetween": 100, "slidesPerView": 5, "https://jesa.computered.co.in/autoplay": { "delay": 5000 }, "breakpoints": {
                         "0": {
                             "spaceBetween": 30,
                             "slidesPerView": 2
@@ -1585,7 +1585,7 @@
                                         title="Visit Jharkhand Government official website (opens in new tab)"
                                         aria-label="Jharkhand Government official website opens in new tab">
 
-                                        <img src="https://computered.co.in/jesa/assets/images/link/jharkhand_gov_logo.png"
+                                        <img src="https://jesa.computered.co.in/assets/images/link/jharkhand_gov_logo.png"
                                             alt="Jharkhand Government official logo"
                                             loading="lazy">
                                     </a>
@@ -1601,7 +1601,7 @@
                                         title="Visit NHAI official website (opens in new tab)"
                                         aria-label="National Highways Authority of India website opens in new tab">
 
-                                        <img src="https://computered.co.in/jesa/assets/images/link/ministry_road_logo.png"
+                                        <img src="https://jesa.computered.co.in/assets/images/link/ministry_road_logo.png"
                                             alt="National Highways Authority of India logo"
                                             loading="lazy">
                                     </a>
@@ -1618,7 +1618,7 @@
                                         title="Visit Digital India initiative (opens in new tab)"
                                         aria-label="Digital India initiative website opens in new tab">
 
-                                        <img src="https://computered.co.in/jesa/assets/images/link/digital_india_logo.png"
+                                        <img src="https://jesa.computered.co.in/assets/images/link/digital_india_logo.png"
                                             alt="Digital India initiative logo"
                                             loading="lazy">
                                     </a>
@@ -1632,7 +1632,7 @@
                                         title="Visit Jharkhand Government official website (opens in new tab)"
                                         aria-label="Jharkhand Government official website opens in new tab">
 
-                                        <img src="https://computered.co.in/jesa/assets/images/link/jharkhand_gov_logo.png"
+                                        <img src="https://jesa.computered.co.in/assets/images/link/jharkhand_gov_logo.png"
                                             alt="Jharkhand Government official logo"
                                             loading="lazy">
                                     </a>
@@ -1648,7 +1648,7 @@
                                         title="Visit NHAI official website (opens in new tab)"
                                         aria-label="National Highways Authority of India website opens in new tab">
 
-                                        <img src="https://computered.co.in/jesa/assets/images/link/ministry_road_logo.png"
+                                        <img src="https://jesa.computered.co.in/assets/images/link/ministry_road_logo.png"
                                             alt="National Highways Authority of India logo"
                                             loading="lazy">
                                     </a>
@@ -1665,7 +1665,7 @@
                                         title="Visit Digital India initiative (opens in new tab)"
                                         aria-label="Digital India initiative website opens in new tab">
 
-                                        <img src="https://computered.co.in/jesa/assets/images/link/digital_india_logo.png"
+                                        <img src="https://jesa.computered.co.in/assets/images/link/digital_india_logo.png"
                                             alt="Digital India initiative logo"
                                             loading="lazy">
                                     </a>
@@ -1679,7 +1679,7 @@
                                         title="Visit Jharkhand Government official website (opens in new tab)"
                                         aria-label="Jharkhand Government official website opens in new tab">
 
-                                        <img src="https://computered.co.in/jesa/assets/images/link/jharkhand_gov_logo.png"
+                                        <img src="https://jesa.computered.co.in/assets/images/link/jharkhand_gov_logo.png"
                                             alt="Jharkhand Government official logo"
                                             loading="lazy">
                                     </a>
@@ -1695,7 +1695,7 @@
                                         title="Visit NHAI official website (opens in new tab)"
                                         aria-label="National Highways Authority of India website opens in new tab">
 
-                                        <img src="https://computered.co.in/jesa/assets/images/link/ministry_road_logo.png"
+                                        <img src="https://jesa.computered.co.in/assets/images/link/ministry_road_logo.png"
                                             alt="National Highways Authority of India logo"
                                             loading="lazy">
                                     </a>
@@ -1712,7 +1712,7 @@
                                         title="Visit Digital India initiative (opens in new tab)"
                                         aria-label="Digital India initiative website opens in new tab">
 
-                                        <img src="https://computered.co.in/jesa/assets/images/link/digital_india_logo.png"
+                                        <img src="https://jesa.computered.co.in/assets/images/link/digital_india_logo.png"
                                             alt="Digital India initiative logo"
                                             loading="lazy">
                                     </a>
@@ -1744,16 +1744,16 @@
         <div class="team-one__bg" style="background-image: url(assets/images/backgrounds/team-one-bg.jpg);"></div>
 
         <div class="team-one__shape-3">
-            <img src="https://computered.co.in/jesa/assets/images/shapes/main-slider-shape-3.png" alt="">
+            <img src="https://jesa.computered.co.in/assets/images/shapes/main-slider-shape-3.png" alt="">
         </div>
         <div class="team-one__shape-4">
-            <img src="https://computered.co.in/jesa/assets/images/shapes/main-slider-shape-4.png" alt="">
+            <img src="https://jesa.computered.co.in/assets/images/shapes/main-slider-shape-4.png" alt="">
         </div>
         <div class="team-one__shape-5">
-            <img src="https://computered.co.in/jesa/assets/images/shapes/team-one-shape-5.png" alt="">
+            <img src="https://jesa.computered.co.in/assets/images/shapes/team-one-shape-5.png" alt="">
         </div>
         <div class="team-one__shape-6">
-            <img src="https://computered.co.in/jesa/assets/images/shapes/team-one-shape-6.png" alt="">
+            <img src="https://jesa.computered.co.in/assets/images/shapes/team-one-shape-6.png" alt="">
         </div>
 
         <div class="container">
@@ -1771,8 +1771,8 @@
                 "margin": 30,
                 "smartSpeed": 700,
                 "loop": true,
-                "https://computered.co.in/jesa/autoplay": true,
-                "https://computered.co.in/jesa/autoplayTimeout": 5000,
+                "https://jesa.computered.co.in/autoplay": true,
+                "https://jesa.computered.co.in/autoplayTimeout": 5000,
                 "nav": true,
                 "dots": false,
                 "navText": ["<span class=\"icon-right-arrow\"></span>","<span class=\"icon-right-arrow1\"></span>"],
@@ -1805,7 +1805,7 @@
 
                         <div class="testimonial-two__client-details">
                             <div class="testimonial-two__client-img">
-                                <img src="https://computered.co.in/jesa/assets/images/testimonial/testimonial-1-1.jpg" alt="">
+                                <img src="https://jesa.computered.co.in/assets/images/testimonial/testimonial-1-1.jpg" alt="">
                             </div>
                             <div class="testimonial-two__info">
                                 <h3 class="testimonial-two__client-name"> Er. Rakesh kumar Srivastava <br>CE(Comm)</h3>
@@ -1837,7 +1837,7 @@
 
                         <div class="testimonial-two__client-details">
                             <div class="testimonial-two__client-img">
-                                <img src="https://computered.co.in/jesa/assets/images/testimonial/testimonial-1-2.jpg" alt="">
+                                <img src="https://jesa.computered.co.in/assets/images/testimonial/testimonial-1-2.jpg" alt="">
                             </div>
                             <div class="testimonial-two__info">
                                 <h3 class="testimonial-two__client-name">Er. Krishn Kumar Lal <br> EIC,RCD</h3>
@@ -1869,7 +1869,7 @@
 
                         <div class="testimonial-two__client-details">
                             <div class="testimonial-two__client-img">
-                                <img src="https://computered.co.in/jesa/assets/images/testimonial/testimonial-1-3.jpg" alt="">
+                                <img src="https://jesa.computered.co.in/assets/images/testimonial/testimonial-1-3.jpg" alt="">
                             </div>
                             <div class="testimonial-two__info">
                                 <h3 class="testimonial-two__client-name"> Er. Arun kumar Rana <br> Retd SE</h3>
@@ -1900,7 +1900,7 @@
                     <div class="blog-one__single">
                         <div class="blog-one__img-box">
                             <div class="blog-one__img">
-                                <img src="https://computered.co.in/jesa/assets/images/blogs/article1.jpg"
+                                <img src="https://jesa.computered.co.in/assets/images/blogs/article1.jpg"
                                     alt="Road infrastructure development project in Jharkhand"
                                     title="Sustainable Road Infrastructure"
                                     loading="lazy">
@@ -1949,7 +1949,7 @@
                     <div class="blog-one__single">
                         <div class="blog-one__img-box">
                             <div class="blog-one__img">
-                                <img src="https://computered.co.in/jesa/assets/images/blogs/article1.jpg"
+                                <img src="https://jesa.computered.co.in/assets/images/blogs/article1.jpg"
                                     alt="Road infrastructure development project in Jharkhand"
                                     title="Sustainable Road Infrastructure"
                                     loading="lazy">
@@ -1998,7 +1998,7 @@
                     <div class="blog-one__single">
                         <div class="blog-one__img-box">
                             <div class="blog-one__img">
-                                <img src="https://computered.co.in/jesa/assets/images/blogs/article1.jpg"
+                                <img src="https://jesa.computered.co.in/assets/images/blogs/article1.jpg"
                                     alt="Road infrastructure development project in Jharkhand"
                                     title="Sustainable Road Infrastructure"
                                     loading="lazy">
@@ -2112,22 +2112,22 @@
 
     <footer class="site-footer">
         <div class="site-footer__shape-1 float-bob-x">
-            <img src="https://computered.co.in/jesa/assets/images/shapes/site-footer-shape-1.png" alt="">
+            <img src="https://jesa.computered.co.in/assets/images/shapes/site-footer-shape-1.png" alt="">
         </div>
         <div class="site-footer__shape-2 img-bounce">
-            <img src="https://computered.co.in/jesa/assets/images/shapes/site-footer-shape-2.png" alt="">
+            <img src="https://jesa.computered.co.in/assets/images/shapes/site-footer-shape-2.png" alt="">
         </div>
         <div class="site-footer__shape-3 float-bob-y">
-            <img src="https://computered.co.in/jesa/assets/images/shapes/site-footer-shape-3.png" alt="">
+            <img src="https://jesa.computered.co.in/assets/images/shapes/site-footer-shape-3.png" alt="">
         </div>
         <div class="site-footer__shape-4 img-bounce">
-            <img src="https://computered.co.in/jesa/assets/images/shapes/site-footer-shape-4.png" alt="">
+            <img src="https://jesa.computered.co.in/assets/images/shapes/site-footer-shape-4.png" alt="">
         </div>
         <div class="site-footer__shape-5 float-bob-x">
-            <img src="https://computered.co.in/jesa/assets/images/shapes/site-footer-shape-5.png" alt="">
+            <img src="https://jesa.computered.co.in/assets/images/shapes/site-footer-shape-5.png" alt="">
         </div>
         <div class="site-footer__shape-6 float-bob-y">
-            <img src="https://computered.co.in/jesa/assets/images/shapes/site-footer-shape-6.png" alt="">
+            <img src="https://jesa.computered.co.in/assets/images/shapes/site-footer-shape-6.png" alt="">
         </div>
         <div class="site-footer__top">
             <div class="container">
@@ -2158,7 +2158,7 @@
                                 <!-- EVENT 1 -->
                                 <li>
                                     <div class="footer-widget-two__latest-post-img">
-                                        <img src="https://computered.co.in/jesa/assets/images/gallery/2025/wrkshop_evolve/1.jpg"
+                                        <img src="https://jesa.computered.co.in/assets/images/gallery/2025/wrkshop_evolve/1.jpg"
                                             alt="Engineers Day celebration organized by JESA"
                                             title="Engineers Day Celebration - JESA"
                                             loading="lazy">
@@ -2181,9 +2181,9 @@
                                 <!-- EVENT 2 -->
                                 <li>
                                     <div class="footer-widget-two__latest-post-img">
-                                        <img src="https://computered.co.in/jesa/assets/images/gallery/2025/wshp_sem/2.jpg"
-                                            alt="https://computered.co.in/jesa/Annual review meeting conducted by JESA"
-                                            title="https://computered.co.in/jesa/Annual Review Meeting - JESA"
+                                        <img src="https://jesa.computered.co.in/assets/images/gallery/2025/wshp_sem/2.jpg"
+                                            alt="https://jesa.computered.co.in/Annual review meeting conducted by JESA"
+                                            title="https://jesa.computered.co.in/Annual Review Meeting - JESA"
                                             loading="lazy">
                                     </div>
                                     <div class="footer-widget-two__latest-post-content">
@@ -2216,8 +2216,8 @@
                                 aria-label="Important links of Jharkhand Engineering Services Association">
 
                                 <li>
-                                    <a href="https://computered.co.in/jesa/about.html"
-                                        title="https://computered.co.in/jesa/About Jharkhand Engineering Services Association"
+                                    <a href="https://jesa.computered.co.in/about.html"
+                                        title="https://jesa.computered.co.in/About Jharkhand Engineering Services Association"
                                         aria-label="Know about Jharkhand Engineering Services Association">
                                         About Us
                                     </a>
@@ -2343,7 +2343,7 @@
                                     aria-label="Visit COMPUTER Ed official website. Opens in a new tab. External website. Privacy policy may differ."
                                     onclick="return confirmExternal();">
 
-                                    <img src="https://computered.co.in/jesa/assets/images/ced.png"
+                                    <img src="https://jesa.computered.co.in/assets/images/ced.png"
                                         width="40"
                                         height="40"
                                         alt="COMPUTER Ed. company logo"
@@ -2377,7 +2377,7 @@
             <!-- Logo -->
             <div class="logo-box">
                 <a href="index.php" title="JESA Home">
-                    <img src="https://computered.co.in/jesa/assets/images/resources/jesa_logo.png"
+                    <img src="https://jesa.computered.co.in/assets/images/resources/jesa_logo.png"
                         alt="JESA Logo"
                         style="max-height:80px;">
                 </a>
@@ -2468,8 +2468,8 @@
             buttons.forEach(btn => {
                 btn.addEventListener("click", function() {
 
-                    buttons.forEach(b => b.classList.remove("https://computered.co.in/jesa/active"));
-                    this.classList.add("https://computered.co.in/jesa/active");
+                    buttons.forEach(b => b.classList.remove("https://jesa.computered.co.in/active"));
+                    this.classList.add("https://jesa.computered.co.in/active");
 
                     applyFilter(this.dataset.filter);
                 });
@@ -2493,38 +2493,38 @@
             );
         }
     </script>
-    <script src="https://computered.co.in/jesa/assets/vendors/jquery/jquery-3.6.4.min.js"></script>
-    <script src="https://computered.co.in/jesa/assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="https://computered.co.in/jesa/assets/vendors/jarallax/jarallax.min.js"></script>
-    <script src="https://computered.co.in/jesa/assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
-    <script src="https://computered.co.in/jesa/assets/vendors/jquery-appear/jquery.appear.min.js"></script>
-    <script src="https://computered.co.in/jesa/assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js"></script>
-    <script src="https://computered.co.in/jesa/assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
-    <script src="https://computered.co.in/jesa/assets/vendors/jquery-validate/jquery.validate.min.js"></script>
-    <script src="https://computered.co.in/jesa/assets/vendors/nouislider/nouislider.min.js"></script>
-    <script src="https://computered.co.in/jesa/assets/vendors/odometer/odometer.min.js"></script>
-    <script src="https://computered.co.in/jesa/assets/vendors/swiper/swiper.min.js"></script>
-    <script src="https://computered.co.in/jesa/assets/vendors/tiny-slider/tiny-slider.min.js"></script>
-    <script src="https://computered.co.in/jesa/assets/vendors/wnumb/wNumb.min.js"></script>
-    <script src="https://computered.co.in/jesa/assets/vendors/wow/wow.js"></script>
-    <script src="https://computered.co.in/jesa/assets/vendors/isotope/isotope.js"></script>
-    <script src="https://computered.co.in/jesa/assets/vendors/countdown/countdown.min.js"></script>
-    <script src="https://computered.co.in/jesa/assets/vendors/owl-carousel/owl.carousel.min.js"></script>
-    <script src="https://computered.co.in/jesa/assets/vendors/bxslider/jquery.bxslider.min.js"></script>
-    <script src="https://computered.co.in/jesa/assets/vendors/bootstrap-select/js/bootstrap-select.min.js"></script>
-    <script src="https://computered.co.in/jesa/assets/vendors/vegas/vegas.min.js"></script>
-    <script src="https://computered.co.in/jesa/assets/vendors/jquery-ui/jquery-ui.js"></script>
-    <script src="https://computered.co.in/jesa/assets/vendors/timepicker/timePicker.js"></script>
-    <script src="https://computered.co.in/jesa/assets/vendors/circleType/jquery.circleType.js"></script>
-    <script src="https://computered.co.in/jesa/assets/vendors/circleType/jquery.lettering.min.js"></script>
-    <script src="https://computered.co.in/jesa/assets/vendors/sidebar-content/jquery-sidebar-content.js"></script>
-    <script src="https://computered.co.in/jesa/assets/vendors/nice-select/jquery.nice-select.min.js"></script>
+    <script src="https://jesa.computered.co.in/assets/vendors/jquery/jquery-3.6.4.min.js"></script>
+    <script src="https://jesa.computered.co.in/assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://jesa.computered.co.in/assets/vendors/jarallax/jarallax.min.js"></script>
+    <script src="https://jesa.computered.co.in/assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
+    <script src="https://jesa.computered.co.in/assets/vendors/jquery-appear/jquery.appear.min.js"></script>
+    <script src="https://jesa.computered.co.in/assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js"></script>
+    <script src="https://jesa.computered.co.in/assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="https://jesa.computered.co.in/assets/vendors/jquery-validate/jquery.validate.min.js"></script>
+    <script src="https://jesa.computered.co.in/assets/vendors/nouislider/nouislider.min.js"></script>
+    <script src="https://jesa.computered.co.in/assets/vendors/odometer/odometer.min.js"></script>
+    <script src="https://jesa.computered.co.in/assets/vendors/swiper/swiper.min.js"></script>
+    <script src="https://jesa.computered.co.in/assets/vendors/tiny-slider/tiny-slider.min.js"></script>
+    <script src="https://jesa.computered.co.in/assets/vendors/wnumb/wNumb.min.js"></script>
+    <script src="https://jesa.computered.co.in/assets/vendors/wow/wow.js"></script>
+    <script src="https://jesa.computered.co.in/assets/vendors/isotope/isotope.js"></script>
+    <script src="https://jesa.computered.co.in/assets/vendors/countdown/countdown.min.js"></script>
+    <script src="https://jesa.computered.co.in/assets/vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="https://jesa.computered.co.in/assets/vendors/bxslider/jquery.bxslider.min.js"></script>
+    <script src="https://jesa.computered.co.in/assets/vendors/bootstrap-select/js/bootstrap-select.min.js"></script>
+    <script src="https://jesa.computered.co.in/assets/vendors/vegas/vegas.min.js"></script>
+    <script src="https://jesa.computered.co.in/assets/vendors/jquery-ui/jquery-ui.js"></script>
+    <script src="https://jesa.computered.co.in/assets/vendors/timepicker/timePicker.js"></script>
+    <script src="https://jesa.computered.co.in/assets/vendors/circleType/jquery.circleType.js"></script>
+    <script src="https://jesa.computered.co.in/assets/vendors/circleType/jquery.lettering.min.js"></script>
+    <script src="https://jesa.computered.co.in/assets/vendors/sidebar-content/jquery-sidebar-content.js"></script>
+    <script src="https://jesa.computered.co.in/assets/vendors/nice-select/jquery.nice-select.min.js"></script>
 
 
 
 
     <!-- template js -->
-    <script src="https://computered.co.in/jesa/assets/js/jesa.js"></script>
+    <script src="https://jesa.computered.co.in/assets/js/jesa.js"></script>
 
 
 </body>

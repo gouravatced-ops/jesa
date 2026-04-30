@@ -9,10 +9,11 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Support\Facades\Crypt;
+use App\Traits\EncryptedRouteKey;
 
 class EngineerDetail extends Model
 {
-    use SoftDeletes;
+    use SoftDeletes, EncryptedRouteKey;
 
     protected $fillable = [
         'user_id',

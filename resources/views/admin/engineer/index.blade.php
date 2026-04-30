@@ -26,7 +26,9 @@
             </a>
         </div>
     </div>
-
+    @php
+        #return getDebugIndex($engineers);
+    @endphp
     <div class="table-responsive">
         <table class="ep-table">
             <thead>

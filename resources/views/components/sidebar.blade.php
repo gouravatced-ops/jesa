@@ -19,6 +19,8 @@
     $subDivisionCreateRoute = route('admin.sub-divisions.create');
     $organizationIndexRoute = route('admin.organizations.index');
     $organizationCreateRoute = route('admin.organizations.create');
+    $parentOrganizationIndexRoute = route('admin.parent-organizations.index');
+    $parentOrganizationCreateRoute = route('admin.parent-organizations.create');
     $postTypeIndexRoute = route('admin.post-types.index');
     $postTypeCreateRoute = route('admin.post-types.create');
     $departmentIndexRoute = route('admin.departments.index');
@@ -34,6 +36,7 @@
     $isProfileActive = request()->routeIs('profile') || request()->routeIs('admin.profile');
     $isDivisionActive = request()->routeIs('admin.divisions.*');
     $isSubDivisionActive = request()->routeIs('admin.sub-divisions.*');
+    $isParentOrganizationActive = request()->routeIs('admin.parent-organizations.*');
     $isOrganizationActive = request()->routeIs('admin.organizations.*');
     $isPostTypeActive = request()->routeIs('admin.post-types.*');
     $isDepartmentActive = request()->routeIs('admin.departments.*');
@@ -110,16 +113,30 @@
         <div class="sidebar-section-label">Management</div>
 
         <div class="nav-item-wrap">
-            <div class="nav-link-custom {{ $isPostTypeActive ? 'active' : '' }}" onclick="toggleSubmenu('posttypesub',this)">
-                <div class="nav-icon"><i class="fa-solid fa-hard-hat"></i></div>
-                <span class="nav-text">Engineer Post</span>
-                <i class="fa-solid fa-chevron-right nav-chevron" id="posttypesub-chev"></i>
+            <div class="nav-link-custom {{ $isParentOrganizationActive ? 'active' : '' }}" onclick="toggleSubmenu('templateparent',this)">
+                <div class="nav-icon"><i class="fa-solid fa-building-columns"></i></div>
+                <span class="nav-text">Parent Organization</span>
+                <i class="fa-solid fa-chevron-right nav-chevron" id="templateparent-chev"></i>
             </div>
-            <div class="submenu" id="posttypesub">
-                <a class="submenu-item {{ request()->routeIs('admin.post-types.index') ? 'active' : '' }}" href="{{ $postTypeIndexRoute }}">Post Type List</a>
-                <a class="submenu-item {{ request()->routeIs('admin.post-types.create') ? 'active' : '' }}" href="{{ $postTypeCreateRoute }}">Add Post Type</a>
+            <div class="submenu" id="templateparent">
+                <a class="submenu-item {{ request()->routeIs('admin.parent-organizations.index') ? 'active' : '' }}" href="{{ $parentOrganizationIndexRoute }}">Parent Organization List</a>
+                <a class="submenu-item {{ request()->routeIs('admin.parent-organizations.create') ? 'active' : '' }}" href="{{ $parentOrganizationCreateRoute }}">Add Parent Organization</a>
             </div>
         </div>
+
+
+        <div class="nav-item-wrap">
+            <div class="nav-link-custom {{ $isOrganizationActive ? 'active' : '' }}" onclick="toggleSubmenu('templatesub',this)">
+                <div class="nav-icon"><i class="fa-solid fa-warehouse"></i></div>
+                <span class="nav-text">Organization</span>
+                <i class="fa-solid fa-chevron-right nav-chevron" id="templatesub-chev"></i>
+            </div>
+            <div class="submenu" id="templatesub">
+                <a class="submenu-item {{ request()->routeIs('admin.organizations.index') ? 'active' : '' }}" href="{{ $organizationIndexRoute }}">Organization List</a>
+                <a class="submenu-item {{ request()->routeIs('admin.organizations.create') ? 'active' : '' }}" href="{{ $organizationCreateRoute }}">Add Organization</a>
+            </div>
+        </div>
+
 
         <div class="nav-item-wrap">
             <div class="nav-link-custom {{ $isEngineerActive ? 'active' : '' }}" onclick="toggleSubmenu('engineersub',this)">
@@ -133,21 +150,46 @@
             </div>
         </div>
 
+        <div class="sidebar-section-label">Components Management</div>
+
+
         <div class="nav-item-wrap">
-            <div class="nav-link-custom {{ $isDivisionActive || $isSubDivisionActive ? 'active' : '' }}" onclick="toggleSubmenu('divisionsub',this)">
-                <div class="nav-icon"><i class="fa-solid fa-sitemap"></i></div>
+            <div class="nav-link-custom {{ $isPostTypeActive ? 'active' : '' }}" onclick="toggleSubmenu('posttypesub',this)">
+                <div class="nav-icon"><i class="fa-solid fa-hard-hat"></i></div>
+                <span class="nav-text">Post Types</span>
+                <i class="fa-solid fa-chevron-right nav-chevron" id="posttypesub-chev"></i>
+            </div>
+            <div class="submenu" id="posttypesub">
+                <a class="submenu-item {{ request()->routeIs('admin.post-types.index') ? 'active' : '' }}" href="{{ $postTypeIndexRoute }}">Post Type List</a>
+                <a class="submenu-item {{ request()->routeIs('admin.post-types.create') ? 'active' : '' }}" href="{{ $postTypeCreateRoute }}">Add Post Type</a>
+            </div>
+        </div>
+
+        <div class="nav-item-wrap">
+            <div class="nav-link-custom {{ $isDivisionActive ? 'active' : '' }}" onclick="toggleSubmenu('divisionsub',this)">
+                <div class="nav-icon"><i class="fa-solid fa-diagram-project"></i></div>
                 <span class="nav-text">Division</span>
                 <i class="fa-solid fa-chevron-right nav-chevron" id="divisionsub-chev"></i>
             </div>
             <div class="submenu" id="divisionsub">
                 <a class="submenu-item {{ request()->routeIs('admin.divisions.index') ? 'active' : '' }}" href="{{ $divisionIndexRoute }}">Division List</a>
                 <a class="submenu-item {{ request()->routeIs('admin.divisions.create') ? 'active' : '' }}" href="{{ $divisionCreateRoute }}">Add Division</a>
+            </div>
+        </div>
+
+        <div class="nav-item-wrap">
+            <div class="nav-link-custom {{ $isSubDivisionActive ? 'active' : '' }}" onclick="toggleSubmenu('subdivisionsub',this)">
+                <div class="nav-icon"><i class="fa-solid fa-sitemap"></i></div>
+                <span class="nav-text">Sub Division</span>
+                <i class="fa-solid fa-chevron-right nav-chevron" id="subdivisionsub-chev"></i>
+            </div>
+            <div class="submenu" id="subdivisionsub">
                 <a class="submenu-item {{ request()->routeIs('admin.sub-divisions.index') ? 'active' : '' }}" href="{{ $subDivisionIndexRoute }}">Sub Division List</a>
                 <a class="submenu-item {{ request()->routeIs('admin.sub-divisions.create') ? 'active' : '' }}" href="{{ $subDivisionCreateRoute }}">Add Sub Division</a>
             </div>
         </div>
 
-        <div class="nav-item-wrap">
+        <!-- <div class="nav-item-wrap">
             <div class="nav-link-custom {{ $isDepartmentActive ? 'active' : '' }}" onclick="toggleSubmenu('departmentsub',this)">
                 <div class="nav-icon"><i class="fa-solid fa-building-user"></i></div>
                 <span class="nav-text">Department</span>
@@ -157,14 +199,14 @@
                 <a class="submenu-item {{ request()->routeIs('admin.departments.index') ? 'active' : '' }}" href="{{ $departmentIndexRoute }}">Department List</a>
                 <a class="submenu-item {{ request()->routeIs('admin.departments.create') ? 'active' : '' }}" href="{{ $departmentCreateRoute }}">Add Department</a>
             </div>
-        </div>
+        </div> -->
 
-        <div class="nav-item-wrap">
+        <!-- <div class="nav-item-wrap">
             <a class="nav-link-custom {{ $isRequisitionActive ? 'active' : '' }}" href="{{ $adminRequisitionIndexRoute }}">
                 <div class="nav-icon"><i class="fa-solid fa-hotel"></i></div>
                 <span class="nav-text">Requisitions</span>
             </a>
-        </div>
+        </div> -->
 
         <div class="nav-item-wrap">
             <div class="nav-link-custom {{ $isBlockActive ? 'active' : '' }}" onclick="toggleSubmenu('blocksub',this)">
@@ -178,19 +220,6 @@
             </div>
         </div>
 
-        <div class="sidebar-section-label">Components Management</div>
-
-        <div class="nav-item-wrap">
-            <div class="nav-link-custom {{ $isOrganizationActive ? 'active' : '' }}" onclick="toggleSubmenu('templatesub',this)">
-                <div class="nav-icon"><i class="fa-solid fa-building"></i></div>
-                <span class="nav-text">Organization</span>
-                <i class="fa-solid fa-chevron-right nav-chevron" id="templatesub-chev"></i>
-            </div>
-            <div class="submenu" id="templatesub">
-                <a class="submenu-item {{ request()->routeIs('admin.organizations.index') ? 'active' : '' }}" href="{{ $organizationIndexRoute }}">Organization List</a>
-                <a class="submenu-item {{ request()->routeIs('admin.organizations.create') ? 'active' : '' }}" href="{{ $organizationCreateRoute }}">Add Organization</a>
-            </div>
-        </div>
         @else
         <div class="nav-item-wrap">
             <a class="nav-link-custom {{ $isProfileActive ? 'active' : '' }}" href="{{ $profileRoute }}">
